@@ -25,8 +25,7 @@ while True:
     if event.type == pygame.QUIT:
       pygame.quit()
       exit()
-    
-  #pygame.draw.rect(screen, (0,255,0),(x,y,size,size))
+
   screen.blit(dvd,(x,y))
   if(goRight):
     if(x >= width - size_x):
